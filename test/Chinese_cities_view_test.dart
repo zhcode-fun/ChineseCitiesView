@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:Chinese_cities_view/Chinese_cities_view.dart';
+import 'package:Chinese_cities_view/chinese_cities_view.dart';
 
 void main() {
   test('adds one to input values', () {

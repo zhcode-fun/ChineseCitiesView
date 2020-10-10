@@ -1,4 +1,4 @@
-library Chinese_cities_view;
+library chinese_cities_view;
 
 /// A Calculator.
 class Calculator {
