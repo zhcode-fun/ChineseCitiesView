@@ -1,8 +1,8 @@
 name: Chinese_cities_view
 description: 中国城市选择插件
 version: 0.0.1
-author:
-homepage:
+author: zhcode
+homepage: https://www.zhcode.fun
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
