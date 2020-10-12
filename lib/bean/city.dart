@@ -1,4 +1,4 @@
-import 'package:Chinese_cities_view/bean/location.dart';
+import 'package:chinese_cities_view/bean/location.dart';
 
 /// 城市
 

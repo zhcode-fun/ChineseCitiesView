@@ -1,4 +1,4 @@
-name: Chinese_cities_view
+name: chinese_cities_view
 description: 中国城市选择插件
 version: 0.0.1
 author: zhcode
@@ -11,6 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_screenutil: ^3.1.1
 
 dev_dependencies:
   flutter_test:
