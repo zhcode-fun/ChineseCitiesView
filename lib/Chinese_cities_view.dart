@@ -1,7 +1,12 @@
 library chinese_cities_view;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:Chinese_cities_view/bean/city.dart';
+import 'package:Chinese_cities_view/view/choose_city.dart';
+import 'package:flutter/material.dart';
+
+class CitiesView {
+  /// 打开选择城市页面
+  static Future<City> chooseCity() {
+    MaterialPageRoute(builder: (context) => ChooseCity());
+  }
 }
