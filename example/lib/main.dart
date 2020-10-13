@@ -63,6 +63,24 @@ class _MyHomePageState extends State<MyHomePage> {
                   _citiesView.chooseCity();
                 },
               ),
+              Container(
+                width: 284,
+                height: 114,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: const Color(0xffe5e5e5),
+                  ),
+                  borderRadius: BorderRadius.circular(6),
+                ),
+                child: Text(
+                  '合肥',
+                  style: TextStyle(
+                    fontSize: 20,
+                    color: const Color(0xff333333),
+                  ),
+                ),
+              ),
             ],
           ),
         ),

@@ -3,19 +3,6 @@
     "char": "A",
     "children": [
       {
-        "id": "820000",
-        "name": "澳门",
-        "fullname": "澳门特别行政区",
-        "pinyin": [
-          "ao",
-          "men"
-        ],
-        "location": {
-          "lat": 22.19875,
-          "lng": 113.54913
-        }
-      },
-      {
         "id": "152900",
         "name": "阿拉善",
         "fullname": "阿拉善盟",
@@ -160,6 +147,19 @@
         "location": {
           "lat": 40.54798,
           "lng": 81.28067
+        }
+      },
+      {
+        "id": "820000",
+        "name": "澳门",
+        "fullname": "澳门特别行政区",
+        "pinyin": [
+          "ao",
+          "men"
+        ],
+        "location": {
+          "lat": 22.19875,
+          "lng": 113.54913
         }
       }
     ]
@@ -1761,10 +1761,6 @@
     ]
   },
   {
-    "char": "I",
-    "children": []
-  },
-  {
     "char": "J",
     "children": [
       {
@@ -2865,10 +2861,6 @@
         }
       }
     ]
-  },
-  {
-    "char": "O",
-    "children": []
   },
   {
     "char": "P",
@@ -4007,14 +3999,6 @@
     ]
   },
   {
-    "char": "U",
-    "children": []
-  },
-  {
-    "char": "V",
-    "children": []
-  },
-  {
     "char": "W",
     "children": [
       {
@@ -4262,19 +4246,6 @@
   {
     "char": "X",
     "children": [
-      {
-        "id": "810000",
-        "name": "香港",
-        "fullname": "香港特别行政区",
-        "pinyin": [
-          "xiang",
-          "gang"
-        ],
-        "location": {
-          "lat": 22.27534,
-          "lng": 114.16546
-        }
-      },
       {
         "id": "130500",
         "name": "邢台",
@@ -4589,6 +4560,19 @@
         "location": {
           "lat": 24.839233,
           "lng": 121.002012
+        }
+      },
+      {
+        "id": "810000",
+        "name": "香港",
+        "fullname": "香港特别行政区",
+        "pinyin": [
+          "xiang",
+          "gang"
+        ],
+        "location": {
+          "lat": 22.27534,
+          "lng": 114.16546
         }
       }
     ]

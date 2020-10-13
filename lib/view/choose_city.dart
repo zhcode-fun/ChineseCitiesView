@@ -1,3 +1,4 @@
+import 'package:chinese_cities_view/view/my_widgets/city_box.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -29,10 +30,64 @@ class ChooseCity extends StatelessWidget {
           children: [
             SearchBar(themeColor: themeColor),
             SizedBox(height: 24.w),
-            ListView(
-              scrollDirection: Axis.vertical,
-              controller: _scrollController,
-              children: [],
+            Expanded(
+              child: DefaultTextStyle(
+                style: TextStyle(
+                  fontSize: 42.sp,
+                ),
+                child: Stack(
+                  children: [
+                    ListView(
+                      scrollDirection: Axis.vertical,
+                      controller: _scrollController,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.only(
+                            left: 48.w,
+                            right: 108.w,
+                          ),
+                          color: Colors.white,
+                          child: Column(
+                            children: [
+                              Container(
+                                height: 136.w,
+                                alignment: Alignment.centerLeft,
+                                child: Text(
+                                  '当前定位城市',
+                                  style: TextStyle(
+                                    color: const Color(0xff999999),
+                                  ),
+                                ),
+                              ),
+                              SizedBox(
+                                height: 300,
+                                child: GridView.count(
+                                  crossAxisCount: 3,
+                                  mainAxisSpacing: 1,
+                                  childAspectRatio: 142 / 57,
+                                  crossAxisSpacing: 36.w,
+                                  physics: NeverScrollableScrollPhysics(),
+                                  children: [
+                                    // CityBox(),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    Positioned(
+                      top: 134.w,
+                      right: 34.w,
+                      child: DefaultTextStyle(
+                        style: TextStyle(),
+                        child: Column(),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ),
           ],
         ),
